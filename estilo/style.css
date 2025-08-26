@@ -127,6 +127,14 @@ main > h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.rapel {
+            background-image: url(../imagens/rapel1.jpg) ;
+            background-repeat: no-repeat;
+            background-position: right;
+
+            
+        }
+
 a.externo::after {
     content: '\1F517';
 }
