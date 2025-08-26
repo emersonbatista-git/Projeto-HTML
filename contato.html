@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <main>
+        <h1>Fale Conosco</h1>
+        <form action="formulario.php" method="post" autocomplete="on">
+        <fieldset>
+        <legend>Dados Pessoais</legend>
+
+        <p>
+             <input type="radio" name="sexo" id="isxmas" value="M" checked> <label for="isxmas">Masculino</label>
+       <input type="radio" name="sexo" id="isxfem" value="F"> <label for="isxfem">Feminino</label>
+        </p>
+        
+                 <p>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+                </p>
+                <p>
+                    <label for="iendereco">Endereço:</label>
+                    <input type="text" name="endereco" id="iendereco" required autocomplete="endereco" autocomplete="endereco" placeholder="Rua, Avenida, etc..">
+                </p>
+                <p>
+                   <label for="inum">Numero</label>
+                   <input type="number" name="num" id="inum" autocomplete="num"  placeholder="S/N" required>
+                </p>
+                <p>
+                    <label for="icomp">Complemento:</label>
+                    <input type="text" name="comp" id="icomp" maxlength="30" placeholder="Quadra, casa" autocomplete="comp">
+                </p>
+                <p>
+                <label for="iest">Estado</label>
+                <select name="estado" id="iestado">
+                    <option value="" selected>---Escolha---</option>
+
+                     <optgroup label="Região Norte">
+                        <option value="AC">Acre</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="PA">Pará</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="TO">Tocantins</option>
+        
+                    </optgroup>
+
+                     <optgroup label="Região Nordeste">
+                        <option value="Al">Alagoas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="SE">Sergipe</option>
+        
+                    </optgroup>
+
+
+                    <optgroup label="Região Centro-Oeste">
+                        <option value="DF">Distrito Federal</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+        
+                    </optgroup>
+
+                    <optgroup label="Região Sudeste">
+                        <option value="ES">Espírito Santos</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                    </optgroup>
+
+                    <optgroup label="Região Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+        
+                    </optgroup>
+
+                   
+
+                    
+
+                   
+                    
+                </select>
+            </p>
+                <p>
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="email" id="iemail" placeholder="xxx@xxxx.xx" required autocomplete="email">
+                </p>
+                <p>
+                   <label for="itel">Telefone</label>
+                   <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxxx-xxxx" required>
+                </p>
+                <p>
+            <label for="ifoto">Anexar documentos</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+
+        <p><label for="mensagem">Mensagem:</label></p>
+        <p>
+            <label for="mensagem"></label>
+<textarea id="mensagem" name="mensagem" rows="8" cols="100"></textarea>
+        </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+        
+                
+        </fieldset>
+        
+         </form>
+    </main>
+
+<footer id="contato">
+        <p>Responsável: Emerson Batista Santos</p>
+        <p>E-mail:  <a href="mailto:ebsantoss@gmail.com?subject=Despertar">ebsantoss@gmail.com</a>  </p>
+        
+         
+             <section id="redes-sociais">
+                 <a href="https:api.whatsapp.com/send?phone=5515998089820" target="_blank">
+                    <img src="imagens/whatsapp.ico" alt="whatsapp" title="Abir no whatsapp">
+                    </a>
+                    
+                    
+
+                    <a href="https://maps.app.goo.gl/LS4cgPXLq9QT1ajf7" target="_blank"><img src="imagens/maps.png" alt="Mapas" title="Abir no Google Maps"></a>
+             </section>
+             
+             
+             
+                   
+               </footer>
+
+
+
+
+       
+
+   
+    
+
+
+
+
+    <div>
+        
+        <p><a href="index.html">Voltar página principal &#x21A9</a></p>
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,785 @@
+@charset "UTF-8";
+
+main img {
+    width: 100%;
+    margin: 10px 0PX 10PX 0PX;
+    height: 350px;
+     
+    
+
+}
+
+/*Farofa*/
+ul#album-fotos {
+ /*  width: 700px;*/
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    
+}
+
+ul#album-fotos li {
+    float: left;
+    width: 200px;
+   height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    
+}
+ul#album-fotos li span {
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    line-height: 370px;
+    padding: 5px;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+}
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+    transition: all .2s ease-in-out;
+}
+
+ul#album-fotos li:hover span {
+    opacity: 1;
+}
+
+
+ul#album-fotos li#foto01 {
+    background: url('../imagens/farofa1.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02 {
+    background: url('../imagens/farofa2.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03 {
+    background: url('../imagens/farofa3.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+    ul#album-fotos li#foto03:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+
+/* ul#album-fotos li#foto04 {
+    background: url('../imagens/farofa4.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+    ul#album-fotos li#foto04:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    } */
+ul#album-fotos li#foto05 {
+    background: url('../imagens/farofa5.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos li#foto05:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+ul#album-fotos li#foto06 {
+    background: url('../imagens/farofa6.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos li#foto06:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+
+        /*Travessia*/
+ul#album-fotos-travessia {
+    /*width: 700px;*/
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos-travessia li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+ul#album-fotos-travessia li span {
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    line-height: 370px;
+    padding: 5px;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+}
+ul#album-fotos-travessia li:hover {
+    -webkit-transform: scale(1.5);
+    transition: all .2s ease-in-out;
+}
+
+ul#album-fotos-travessia li:hover span {
+    opacity: 1;
+}
+
+
+ul#album-fotos-travessia li#foto01 {
+    background: url('../imagens/travessia1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos-travessia li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos-travessia li#foto02 {
+    background: url('../imagens/travessia2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos-travessia li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos-travessia li#foto03 {
+    background: url('../imagens/travessia3.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+    ul#album-fotos-travessia li#foto03:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+
+ul#album-fotos-travessia li#foto04 {
+    background: url('../imagens/travessia4.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+    ul#album-fotos-travessia li#foto04:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+ul#album-fotos-travessia li#foto05 {
+    background: url('../imagens/travessia5.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-travessia li#foto05:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+ul#album-fotos-travessia li#foto06 {
+    background: url('../imagens/travessia6.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-travessia li#foto06:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+
+ul#album-fotos-travessia li#foto07 {
+    background: url('../imagens/travessia7.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-travessia li#foto07:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+        ul#album-fotos-travessia li#foto08 {
+    background: url('../imagens/travessia8.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-travessia li#foto08:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+        ul#album-fotos-travessia li#foto09 {
+    background: url('../imagens/travessia9.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-travessia li#foto09:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+        ul#album-fotos-travessia li#foto10 {
+    background: url('../imagens/travessia10.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-travessia li#foto10:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+        ul#album-fotos-travessia li#foto11 {
+    background: url('../imagens/travessia11.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-travessia li#foto11:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+        ul#album-fotos-travessia li#foto12 {
+    background: url('../imagens/travessia12.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-travessia li#foto12:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+
+        /*MORENA*/
+
+ul#album-fotos-morena {
+   /* width: 700px; */
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos-morena li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+ul#album-fotos-morena li span {
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    line-height: 370px;
+    padding: 5px;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+}
+ul#album-fotos-morena li:hover {
+    -webkit-transform: scale(1.5);
+    transition: all .2s ease-in-out;
+}
+
+ul#album-fotos-morena li:hover span {
+    opacity: 1;
+}
+
+
+ul#album-fotos-morena li#foto01 {
+    background: url('../imagens/morena1.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos-morena li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos-morena li#foto02 {
+    background: url('../imagens/morena2.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos-morena li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos-morena li#foto03 {
+    background: url('../imagens/morena3.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+    ul#album-fotos-morena li#foto03:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+
+ul#album-fotos-morena li#foto04 {
+    background: url('../imagens/morena4.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+    ul#album-fotos-morena li#foto04:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+ul#album-fotos-morena li#foto05 {
+    background: url('../imagens/morena5.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-travessia li#foto05:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+ul#album-fotos-morena li#foto06 {
+    background: url('../imagens/morena6.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-morena li#foto06:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+
+
+        /*TABULEIRO*/
+ul#album-fotos-tabuleiro {
+  /*  width: 700px; */
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos-tabuleiro li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+
+ul#album-fotos-tabuleiro li span {
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    line-height: 370px;
+    padding: 5px;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+}
+ul#album-fotos-tabuleiro li:hover {
+    -webkit-transform: scale(1.5);
+    transition: all .2s ease-in-out;
+}
+
+ul#album-fotos-tabuleiro li:hover span {
+    opacity: 1;
+}
+
+ul#album-fotos-tabuleiro li#foto01 {
+    background: url('../imagens/tabuleiro1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos-tabuleiro li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos-tabuleiro li#foto02 {
+    background: url('../imagens/tabuleiro2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos-tabuleiro li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos-tabuleiro li#foto03 {
+    background: url('../imagens/tabuleiro3.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+    ul#album-fotos-tabuleiro li#foto03:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+
+ul#album-fotos-tabuleiro li#foto04 {
+    background: url('../imagens/tabuleiro4.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+    ul#album-fotos-tabuleiro li#foto04:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+ul#album-fotos-tabuleiro li#foto05 {
+    background: url('../imagens/tabuleiro5.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-tabuleiro li#foto05:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+ul#album-fotos-tabuleiro li#foto06 {
+    background: url('../imagens/tabuleiro6.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-tabuleiro li#foto06:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+
+ul#album-fotos-tabuleiro li#foto07 {
+    background: url('../imagens/tabuleiro7.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-tabuleiro li#foto07:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+        ul#album-fotos-tabuleiro li#foto08 {
+    background: url('../imagens/tabuleiro8.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-tabuleiro li#foto08:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+        ul#album-fotos-tabuleiro li#foto09 {
+    background: url('../imagens/tabuleiro9.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-tabuleiro li#foto09:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+            ul#album-fotos-tabuleiro li#foto10 {
+    background: url('../imagens/tabuleiro10.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-tabuleiro li#foto10:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+
+
+        /*VEU DA NOIVA*/
+
+        ul#album-fotos-veu {
+/*    width: 700px; */
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos-veu li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+
+ul#album-fotos-veu li span {
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    line-height: 370px;
+    padding: 5px;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+}
+ul#album-fotos-veu li:hover {
+    -webkit-transform: scale(1.5);
+    transition: all .2s ease-in-out;
+}
+
+ul#album-fotos-veu li:hover span {
+    opacity: 1;
+}
+
+ul#album-fotos-veu li#foto01 {
+    background: url('../imagens/veu1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos-veu li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos-veu li#foto02 {
+    background: url('../imagens/veu2.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos-veu li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos-veu li#foto03 {
+    background: url('../imagens/veu3.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos-veu li#foto03:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+
+ul#album-fotos-veu li#foto04 {
+    background: url('../imagens/veu4.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+    ul#album-fotos-veu li#foto04:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+ul#album-fotos-veu li#foto05 {
+    background: url('../imagens/veu5.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-veu li#foto05:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+ul#album-fotos-veu li#foto06 {
+    background: url('../imagens/veu6.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-veu li#foto06:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+
+        ul#album-fotos-veu li#foto07 {
+    background: url('../imagens/veu7.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-veu li#foto07:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+        ul#album-fotos-veu li#foto08 {
+    background: url('../imagens/veu8.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-veu li#foto08:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+        ul#album-fotos-veu li#foto09 {
+    background: url('../imagens/veu9.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-veu li#foto09:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+
+            ul#album-fotos-veu li#foto10 {
+    background: url('../imagens/veu10.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-veu li#foto10:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+
+
+
+        /*Fotos Treinamento*/
+
+
+        
+    ul#album-fotos-personal {
+/*    width: 700px; */
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos-personal li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+
+ul#album-fotos-personal li span {
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    line-height: 370px;
+    padding: 5px;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+}
+ul#album-fotos-personal li:hover {
+    -webkit-transform: scale(1.5);
+    transition: all .2s ease-in-out;
+}
+
+ul#album-fotos-personal li:hover span {
+    opacity: 1;
+}
+
+ul#album-fotos-personal li#foto01 {
+    background: url('../imagens/tr1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos-personal li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos-personal li#foto02 {
+    background: url('../imagens/tr2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos-personal li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos-personal li#foto03 {
+    background: url('../imagens/tr3.JPG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos-personal li#foto03:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+
+ul#album-fotos-personal li#foto04 {
+    background: url('../imagens/tr4.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+    ul#album-fotos-personal li#foto04:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+ul#album-fotos-personal li#foto05 {
+    background: url('../imagens/tr5.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-personal li#foto05:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+ul#album-fotos-personal li#foto06 {
+    background: url('../imagens/tr6.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+        ul#album-fotos-personal li#foto06:hover {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+        }
+
+
+
+        /*VIDEOS*/
+
+        div.video {
+            margin: 0 auto;
+            width: 500px;
+            
+
+        }
+
