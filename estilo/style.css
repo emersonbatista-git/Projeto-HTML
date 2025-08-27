@@ -21,8 +21,9 @@
     
 }
 
-html, body {
-    height: 100vh;
+html, body{
+   
+    height: 1500px;
     
     
 }
@@ -35,6 +36,8 @@ body {
     background-color: #d6cfd0;
     font-family: var(--fonte-padrao);
     margin: 0px;
+    
+    
 
 }
 
@@ -48,7 +51,8 @@ header  {
     padding-top: 10px;
     margin: auto;
     border-radius: 10px 10px 0px 0px;
-   
+
+      
 }
 
 header > h1 {
