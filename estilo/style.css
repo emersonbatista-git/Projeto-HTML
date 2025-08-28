@@ -196,6 +196,8 @@ strong {
     
     }
 
+    
+
 /*RODAPE*/
 
     footer {
@@ -221,7 +223,7 @@ footer a:hover {
 
 div {
     padding: 5px;
-    margin: auto;
+  /*  margin: auto; */
 }
 
 
